@@ -17,17 +17,26 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/htmlDatePicker.css" />
+	<link rel="stylesheet" href="css/pepper-grinder/jquery-ui-1.10.3.custom.min.css">
 
-
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	
+<script>
+  $(function() {
+    $( "#datepicker" ).datepicker({ minDate: 0, maxDate: "+1M +10D" });
+  });
+  </script>
 	
 </head>
 <body>
 
 <div class="container">
 
-	<header class="grid_12"></header>
+	<header class="grid_12">
+    	<img src="images/header.jpg">
+    </header>
 
 	<nav class="grid_12">
 		<ul>
@@ -40,36 +49,62 @@
 		</ul>	
 	</nav>
 	
-	<div class="grid_4">
+	<iframe class="grid_12" width="693" height="334" frameborder="0" scrolling="no" marginheight="0" 
+	marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;
+	geocode=&amp;q=214+Gervais+Street,+Columbia,+SC&amp;aq=&amp;sll=33.99696,-81.047623&a
+	mp;sspn=0.009411,0.016372&amp;ie=UTF8&amp;hq=&amp;hnear=214+Gervais+St,+Columbia,
+	+South+Carolina+29201&amp;ll=33.99696,-81.047623&amp;spn=0.009411,0.016372&amp;t=m
+	&amp;z=14&amp;output=embed"></iframe><br />
 	
-			<h1>contact Us</h1>
-		
-		<p>Call us at 803-555-5555D</p>
-		
-		<p>123 Gervais St, Suite B<br />
-		   Columbia, SC 29210</p>
+	<div class="12">
+		<div class="grid_3 alpha prefix_1">
 	
-	</div>
-	
-	<div class="grid_8">
-		<h2>Request a Reservation</h2>
-		<form method="post" action="#">
-			First Name:<br />
-			<input type="text" name="firstname" /><br />
-			Last Name:<br />
-			<input type="text" name="lastname" value="" /><br />
-			Email:<br />
-			<input type="email" name="email" /><br />
-			Phone:<br />
-			<input type="tel" name="phone" /><br />
+				<h1>Contact Us</h1>
 		
-			
-		</form>
-	</div>
-	<footer class="grid_12"></footer>
+			<p>Call us at 803-555-5555D</p>
+		
+			<p>123 Gervais St, Suite B<br />
+			   Columbia, SC 29210</p>
+	
+		</div>
+	
+		<div class="grid_4 omega prefix_4">
+			<h1>Request a Reservation</h1>
+			<form method="post" action="#">
+				First Name:<br />
+				<input type="text" name="firstname" /><br />
+				Last Name:<br />
+				<input type="text" name="lastname" value="" /><br />
+				Email:<br />
+				<input type="email" name="email" /><br />
+				Phone:<br />
+				<input type="tel" name="phone" /><br />
+				Date:<br />
+				<input type="text" id="datepicker" /><br />
+				
+
+			</form>
+		</div>
+	 </div>	
+	
+    <footer class="grid_12">
+    	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="careers.html">Careers</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="recipes.html">Recipes</a></li>
+		</ul>
+	</nav>
+    
+    <small>&copy; 2013 Nicks Itailian Restaurant</small>
+    	
+	</footer>
 </div>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
 <script src="js/scripts.js"></script>
 </body>
 </html>
