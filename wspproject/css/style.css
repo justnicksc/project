@@ -19,15 +19,15 @@ Copyright 2013, Josh Cope
 
 }   
 
+
 body {
 	background-image: url(../images/background.jpg);
-	font-family: Helvetica, Arial, sans-serif
+	font-family: Helvetica, Arial, sans-serif;
 }
+
 
 nav {
 	text-align: center;
-	/*background-color: #1b5911;*/
-			
 }
 
 nav li {
@@ -36,6 +36,17 @@ nav li {
 	color: #d94814;
 	font-size: 3em; /* font size 48px */
 	margin: .2em .5em;
+	text-shadow: 1px 1px 5px rgba(0,0,0,5);
+}
+
+nav li a:link {
+	color: d94814;
+	text-decoration: none;
+}
+
+nav li a:visited {
+	color: #1b5911;
+	text-decoration: none;
 }
 
 
@@ -46,6 +57,10 @@ footer {
 	color: #f2edd;
 	Margin-top: 4em;
 		
+}
+
+#footer_nav li {
+	font-size: 1.5em;
 }
 
 .button {
@@ -70,6 +85,11 @@ footer li a:link {
 
 footer li a:visited {
 	color: #bfaa84;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
 }
 /* =============================================================================
    Media Queries
