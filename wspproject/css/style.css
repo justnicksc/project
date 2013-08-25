@@ -33,6 +33,16 @@ h1 {
 	
 }
 
+h2 {
+	color: #d94814;
+	text-shadow: 1px 1px 5px rgba(0,0,0,5);
+}
+
+h3 {
+	color: #d94814;
+	text-shadow: 1px 1px 5px rgba(0,0,0,5);
+}
+
 nav {
 	text-align: center;
 }
