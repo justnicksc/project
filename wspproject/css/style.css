@@ -25,6 +25,13 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+h1 {
+	font-family: italiannoregular, Brush Script MT, cursive;
+	color: #d94814;
+	font-size: 3em;
+	text-shadow: 1px 1px 5px rgba(0,0,0,5);
+	
+}
 
 nav {
 	text-align: center;
@@ -33,20 +40,24 @@ nav {
 nav li {
 	display: inline;
 	font-family: italiannoregular, Brush Script MT, cursive;
-	color: #d94814;
 	font-size: 3em; /* font size 48px */
 	margin: .2em .5em;
 	text-shadow: 1px 1px 5px rgba(0,0,0,5);
 }
 
 nav li a:link {
-	color: d94814;
+	color: #d94814;
 	text-decoration: none;
 }
 
 nav li a:visited {
-	color: #1b5911;
 	text-decoration: none;
+	color:  #d94814;
+}
+
+nav li a:hover {
+	text_decoration: none;
+	color: #1b5911;
 }
 
 
@@ -90,6 +101,9 @@ footer li a:visited {
 .center {
 	margin: 0 auto;
 	text-align: center;
+}
+td {
+	margin-right: .25em;
 }
 /* =============================================================================
    Media Queries
