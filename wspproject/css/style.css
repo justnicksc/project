@@ -21,26 +21,30 @@ Copyright 2013, Josh Cope
 
 
 body {
-	background-image: url(../images/background.jpg);
+	background-color: #1b5911;
 	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container .bg_wrapper {
+    background-image: url(../images/background.jpg);
 }
 
 h1 {
 	font-family: italiannoregular, Brush Script MT, cursive;
 	color: #d94814;
 	font-size: 3em;
-	text-shadow: 1px 1px 5px rgba(0,0,0,5);
+	text-shadow: 1px 1px 2px rgba(0,0,0,2);
 	
 }
 
 h2 {
 	color: #d94814;
-	text-shadow: 1px 1px 5px rgba(0,0,0,5);
+	text-shadow: 1px 1px 2px rgba(0,0,0,2);
 }
 
 h3 {
 	color: #d94814;
-	text-shadow: 1px 1px 5px rgba(0,0,0,5);
+	text-shadow: 1px 1px 2px rgba(0,0,0,2);
 }
 
 nav {
@@ -52,7 +56,7 @@ nav li {
 	font-family: italiannoregular, Brush Script MT, cursive;
 	font-size: 3em; /* font size 48px */
 	margin: .2em .5em;
-	text-shadow: 1px 1px 5px rgba(0,0,0,5);
+	text-shadow: 1px 1px 2px rgba(0,0,0,2);
 }
 
 nav li a:link {
@@ -66,7 +70,6 @@ nav li a:visited {
 }
 
 nav li a:hover {
-	text_decoration: none;
 	color: #1b5911;
 }
 
@@ -75,7 +78,7 @@ footer {
 	display: block;
 	text-align: center;
 	background-color: #a60303;
-	color: #f2edd;
+	color: #000;
 	Margin-top: 4em;
 		
 }
@@ -100,12 +103,21 @@ footer {
     margin-right: auto;
 }
 
-footer li a:link {
+#footer_nav li a:link {
 	color: #f2eddc;
 }
 
-footer li a:visited {
+
+#footer_nav li a:visited {
 	color: #bfaa84;
+}
+
+#footer_nav li a:hover {
+    color: #1b5911;  
+}
+
+#footer_nav li a:active {
+    color: #fff;
 }
 
 .center {
