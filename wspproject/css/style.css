@@ -21,13 +21,10 @@ Copyright 2013, Josh Cope
 
 
 body {
-	background-color: #1b5911;
+	background-image: url(../images/background.jpg);
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-.container .bg_wrapper {
-    background-image: url(../images/background.jpg);
-}
 
 h1 {
 	font-family: italiannoregular, Brush Script MT, cursive;
